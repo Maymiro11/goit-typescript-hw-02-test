@@ -18,6 +18,7 @@ const SearchForm: FC<SearchBarProps> = ({ onSearch }) => {
         !valueForSearch
           ? toast.error('Search request can not be empty')
           : onSearch(valueForSearch);
+          
       };
 
   return (

@@ -70,6 +70,7 @@ function App() {
     setCurrentPage(1);
     setValueForSearch(value);
     setImageArray(null);
+  
   };
 
   const onClick = (): void => {
@@ -83,7 +84,7 @@ function App() {
 
   return (
     <>
-      <SearchBar onSearch={onSearch} />
+      <SearchBar onSearch={onSearch}/>
       <div>
       {Array.isArray(imageArray) && imageArray.length && (
         <ImageGallery

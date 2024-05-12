@@ -13,7 +13,7 @@ const Loader: FC = () => {
         ariaLabel:"rotating-lines-loading",
       }
     return (
-        <div>
+        <div className="loader-container">
 <RotatingLines
      {...props}
     />
